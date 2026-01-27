@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.env/
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model files (avoid pushing large binaries)
+*.h5
+*.keras
+
+# TensorFlow / Keras temp files
+logs/
+checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# IDEs
+.vscode/
+.idea/
+
+# Data (if any added later)
+data/
+datasets/
